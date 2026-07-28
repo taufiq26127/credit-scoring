@@ -11,3 +11,7 @@ wheels/
 
 # artifacts
 mlartifacts/
+
+mlflow.db
+mlruns/
+mlartifacts/
