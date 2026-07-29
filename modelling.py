@@ -20,7 +20,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 input_example = X_train[0:5]
 
-with mlflow.start_run():
+with mlflow.start_run(run_name="rf_model"):
     # Log parameters
     n_estimators = 505
     max_depth = 37
